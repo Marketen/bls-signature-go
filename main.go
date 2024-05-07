@@ -27,7 +27,7 @@ var pubkey = "a410f6e8284c84e68fb4fef78ed947177c4f18d3106b148f6e558d0cdc8fd7a2bf
 
 func main() {
 	// Define the URL
-	url := "http://172.33.0.36:9000/api/v1/eth2/ext/sign/0xa410f6e8284c84e68fb4fef78ed947177c4f18d3106b148f6e558d0cdc8fd7a2bf7c44caceb2847b974134d4fd87c259"
+	url := "http://localhost:9000/api/v1/eth2/ext/sign/0xa410f6e8284c84e68fb4fef78ed947177c4f18d3106b148f6e558d0cdc8fd7a2bf7c44caceb2847b974134d4fd87c259"
 
 	// Define the DecodedPayload
 	requestPayload := DecodedPayload{
